@@ -1,6 +1,9 @@
 import { Github, Twitter, Code2, Linkedin, Shield } from 'lucide-react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NotFound from './NotFound';
 
-function App() {
+// Extract main content into its own component
+function Main() {
   return (
     <div className="min-h-screen overflow-hidden bg-gradient-to-br from-gray-900 to-black text-white relative">
       <nav className="fixed top-0 left-0 right-0 bg-gray-900/80 backdrop-blur-sm border-b border-gray-800 z-50">
@@ -56,6 +59,17 @@ function App() {
         </div>
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/off" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
