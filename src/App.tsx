@@ -25,7 +25,7 @@ function App() {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 pt-28 pb-4">
+      <main className="container mx-auto px-4 pt-28 pb-16">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text leading-tight px-4">
             Hosted by<br />0xArchit
