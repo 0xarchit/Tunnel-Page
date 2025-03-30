@@ -49,8 +49,8 @@ function App() {
       </main>
 
       <footer className="fixed bottom-0 w-full border-t border-gray-800 bg-gray-900">
-        <div className="container mx-auto px-4 py-4">
-          <div className="text-center text-gray-400">
+        <div className="container mx-auto px-4 py-2 sm:py-4">
+          <div className="text-center text-gray-400 text-xs sm:text-sm">
             <p>© {new Date().getFullYear()} 0xArchit. All rights reserved.</p>
           </div>
         </div>
