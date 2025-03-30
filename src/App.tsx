@@ -2,7 +2,7 @@ import { Github, Twitter, Code2, Linkedin, Shield } from 'lucide-react';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white relative">
+    <div className="min-h-screen overflow-hidden bg-gradient-to-br from-gray-900 to-black text-white relative">
       <nav className="fixed top-0 left-0 right-0 bg-gray-900/80 backdrop-blur-sm border-b border-gray-800 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
@@ -25,7 +25,7 @@ function App() {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 pt-28 pb-28">
+      <main className="container mx-auto px-4 pt-28 pb-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text leading-tight px-4">
             Hosted by<br />0xArchit
