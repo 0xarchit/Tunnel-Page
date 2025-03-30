@@ -11,13 +11,13 @@ function App() {
               <span className="text-xl font-bold">0xArchit</span>
             </div>
             <div className="flex space-x-6">
-              <a href="https://github.com/0xArchit" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+              <a href="https://github.com/0xArchit" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-blue-400 transition-colors">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://twitter.com/0xArchit" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+              <a href="https://twitter.com/0xArchit" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="hover:text-blue-400 transition-colors">
                 <Twitter className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com/in/0xArchit" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+              <a href="https://linkedin.com/in/0xArchit" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-blue-400 transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
@@ -25,7 +25,7 @@ function App() {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 pt-28 pb-16">
+      <main className="container mx-auto px-4 pt-28 pb-28">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text leading-tight px-4">
             Hosted by<br />0xArchit
@@ -48,8 +48,8 @@ function App() {
         </div>
       </main>
 
-      <footer className="absolute bottom-0 w-full border-t border-gray-800">
-        <div className="container mx-auto px-4 py-8">
+      <footer className="fixed bottom-0 w-full border-t border-gray-800 bg-gray-900">
+        <div className="container mx-auto px-4 py-4">
           <div className="text-center text-gray-400">
             <p>© {new Date().getFullYear()} 0xArchit. All rights reserved.</p>
           </div>
