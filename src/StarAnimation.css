@@ -1,0 +1,125 @@
+@keyframes fall {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.star {
+  position: absolute;
+  top: -50px;
+  width: 2px;
+  height: 10px;
+  background: white;
+  opacity: 0;
+  animation: fall linear infinite;
+}
+
+/* Randomized properties for each star */
+.star:nth-child(1) {
+  left: 32%;
+  animation-delay: 1.23s;
+  animation-duration: 4.12s;
+}
+.star:nth-child(2) {
+  left: 75%;
+  animation-delay: 0.57s;
+  animation-duration: 3.76s;
+}
+.star:nth-child(3) {
+  left: 18%;
+  animation-delay: 3.44s;
+  animation-duration: 4.91s;
+}
+.star:nth-child(4) {
+  left: 56%;
+  animation-delay: 2.1s;
+  animation-duration: 3.35s;
+}
+.star:nth-child(5) {
+  left: 90%;
+  animation-delay: 4.89s;
+  animation-duration: 4.47s;
+}
+.star:nth-child(6) {
+  left: 24%;
+  animation-delay: 0.7s;
+  animation-duration: 3.88s;
+}
+.star:nth-child(7) {
+  left: 48%;
+  animation-delay: 2.95s;
+  animation-duration: 3.5s;
+}
+.star:nth-child(8) {
+  left: 65%;
+  animation-delay: 1.85s;
+  animation-duration: 4.22s;
+}
+.star:nth-child(9) {
+  left: 10%;
+  animation-delay: 3.3s;
+  animation-duration: 3.6s;
+}
+.star:nth-child(10) {
+  left: 82%;
+  animation-delay: 0.4s;
+  animation-duration: 3.9s;
+}
+.star:nth-child(11) {
+  left: 37%;
+  animation-delay: 4.2s;
+  animation-duration: 4.05s;
+}
+.star:nth-child(12) {
+  left: 50%;
+  animation-delay: 1.56s;
+  animation-duration: 3.77s;
+}
+.star:nth-child(13) {
+  left: 27%;
+  animation-delay: 2.64s;
+  animation-duration: 3.99s;
+}
+.star:nth-child(14) {
+  left: 68%;
+  animation-delay: 0.95s;
+  animation-duration: 4.5s;
+}
+.star:nth-child(15) {
+  left: 15%;
+  animation-delay: 3.8s;
+  animation-duration: 3.65s;
+}
+.star:nth-child(16) {
+  left: 93%;
+  animation-delay: 1.1s;
+  animation-duration: 3.45s;
+}
+.star:nth-child(17) {
+  left: 40%;
+  animation-delay: 2.5s;
+  animation-duration: 4s;
+}
+.star:nth-child(18) {
+  left: 55%;
+  animation-delay: 1.75s;
+  animation-duration: 3.55s;
+}
+.star:nth-child(19) {
+  left: 5%;
+  animation-delay: 4.8s;
+  animation-duration: 4.3s;
+}
+.star:nth-child(20) {
+  left: 78%;
+  animation-delay: 0.65s;
+  animation-duration: 3.95s;
+}
